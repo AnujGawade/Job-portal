@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Nunito;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.rich-text {
+  font-size: 15px;
+  color: #7a7b7d;
+}
+.rich-text p {
+  margin-bottom: 16px;
+}
+.rich-text h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #252525;
+}
+.rich-text h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #252525;
+}
